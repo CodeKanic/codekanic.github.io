@@ -40,3 +40,8 @@ footer .bug{font-size:1.3rem}
 footer ul{list-style:none;padding:0;display:flex;flex-wrap:wrap;gap:6px 16px}
 @media (max-width:640px){html{font-size:18px}.hero{grid-template-columns:1fr}.hero img{width:128px;height:128px;order:-1}nav{margin-left:0;width:100%}h1{font-size:1rem}}
 body{min-height:100vh;display:flex;flex-direction:column} main{flex:1;width:100%}
+.price{font-family:"Press Start 2P",monospace;font-size:.7rem;color:var(--yel)!important;margin:.6em 0!important}
+.buy{display:inline-block;font-family:"Press Start 2P",monospace;font-size:.6rem;padding:10px 12px;margin:4px 8px 4px 0;background:var(--yel);color:#140B2E;text-decoration:none;border:3px solid #000;box-shadow:4px 4px 0 var(--pink)}
+.buy:hover,.buy:focus{background:var(--cyan);color:#000;transform:translate(2px,2px);box-shadow:2px 2px 0 var(--pink)}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.card iframe{max-width:100%;border:0}
